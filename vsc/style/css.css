@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'momstypewriter';
+  src: url('momstypewriter.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html{
+  font-family: 'momstypewriter';
+}
+
+#welcome{
+  margin-top: 40px;
+  font-family: 'momstypewriter';
+  justify-self: center;
+}
+
+#text{
+  justify-self: center;
+  justify-content: center;
+}
+
+#bar{
+  background-color: blue;
+  height: 50px;
+  width: 100%;
+}
+.bar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+}
+
+.barbutton{
+  height: 100%;
+  width: 20%;
+  background-color: blue;
+  border-color: #22f;
+  color: white;
+  font-family: 'momstypewriter';
+}
+
+.barbutton2{
+  height: 100%;
+  width: 50%;
+  background-color: blue;
+  border-color: #22f;
+  color: white;
+  font-family: 'momstypewriter';
+}
+
+.barbutton3{
+  height: 100%;
+  width: 80%;
+  background-color: blue;
+  border-color: #22f;
+  color: white;
+  font-family: 'momstypewriter';
+}
+
+#logo{
+  width: 50px;
+  height: 50px;
+}
+
+#logo:hover{
+  transform: rotate(360deg);
+  animation: spin 0.8s linear infinite;
+  transform-origin: center; 
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#ns{
+  color: #fff;
+}
+
+.secret{
+  background-color: red;
+}
+
+.line{
+  width: 100%;
+  background-color: #000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 3px;
+}
+
+#mart{
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+}
+
+#gir{
+  border: 3px outset blue;
+  width: 100px;
+}
+
+.container1{
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+
+#barscary{
+  background-color: rgb(255, 0, 0);
+  height: 50px;
+  width: 100%;
+}
+
+.barbuttonscary{
+  height: 100%;
+  width: 20%;
+  background-color: rgb(255, 0, 0);
+  border-color: #f22;
+  color: white;
+  font-family: 'momstypewriter';
+}
+
+.container2{
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
